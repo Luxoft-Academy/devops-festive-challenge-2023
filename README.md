@@ -16,6 +16,7 @@ The training phase is designed to teach you how to convert a Docker Compose file
 Several training videos are available, each around 20 minutes in length, detailing the conversion process:
 
 1. [Training Video 1](https://youtu.be/3dxUbbpJ10k)
+2. [Training Vidoe 2](https://youtu.be/dJKI-BosM-g)
 
 
 
