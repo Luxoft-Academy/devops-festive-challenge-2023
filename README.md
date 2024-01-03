@@ -27,16 +27,41 @@ To access the training environment and follow along with the videos, please send
 
 ## Part 2: Challenge
 
-The details of the challenge phase will be provided 3 of Jan.
+### Task: 
 
+Deploy the Spring PetClinic application on a Kubernetes cluster. https://github.com/spring-petclinic/spring-petclinic-microservices
+ 
+### Provided Resources:
+ 
+Docker Images: Available at https://hub.docker.com/u/springcommunity 
 
-## Getting Started
+Storage Class Name:  ebs
 
-Start with the training phase by accessing the training environment, reviewing the `compose.yaml` file in the `training` folder, and watching the training videos.
+Cert Manager Issuer:  letsencrypt-prod
 
-## Submission
+Ingress Controller Class Name:  nginx
 
-Information regarding the submission process for both the training and the challenge phases will be announced at the start of the challenge phase.
+Host Name: <your-username>.k8s.luxoft.academy
+
+Kubernetes Cluster: Accessible from your practising environment. If you'd like to work locally, please, request access details via email.
+ 
+ 
+### Expectations:
+ 
+- Create Kubernetes deployment and service configurations.
+
+- Configure persistent storage for any stateful components.
+
+- Set up an Ingress resource using the provided ingress controller and ensure it's secured with TLS using the cert manager issuer.
+
+- Ensure proper resource limits and requests are set for the pods.
+
+- Include readiness probe in the deployment configuration.
+
+- (Optional) Create MySQL StatefulSet and use in the application instead of default in memory database.
+
+- (Optional) Implement logging and monitoring solutions.
+ 
 
 ## Support
 
